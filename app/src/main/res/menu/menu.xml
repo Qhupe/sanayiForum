@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/menuicon"
+        app:showAsAction="always"
+        android:title="TODO">
+        <menu>
+            <item
+                android:id="@+id/homepage"
+                android:title="ANASAYFA"
+                android:icon="@drawable/homepageicon"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/profile"
+                android:title="PROFİL"
+                android:icon="@drawable/profilesettings"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/newTitle"
+                android:title="YENİ BAŞLIK"
+                android:icon="@drawable/plus_icon"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/settings"
+                android:title="AYARLAR"
+                android:icon="@drawable/settingsicon"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/exit"
+                android:title="ÇIKIŞ"
+                android:icon="@drawable/exiticon"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
